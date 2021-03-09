@@ -4,18 +4,19 @@
   color: white;
 }
 
-section {
-  background-image: url(../img/01.jpg);
+body {
+  background-image: url("../img/01.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  min-height: 100vh;
 }
 header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: black;
+  flex-wrap: wrap;
   padding: 15px 30px;
 }
 header > a {
@@ -27,14 +28,15 @@ header > a:hover {
   color: black;
 }
 ul {
-  display: flex;
+  margin: 10px 0;
 }
 
 ul li {
   padding: 0 15px;
   font-weight: bold;
+  display: inline-block;
 }
-p {
+div {
   font-family: "Akaya Telivigala", cursive;
   font-weight: bold;
   font-size: 30px;
